@@ -10,10 +10,11 @@
 - react-router-dom
 - react-tag-input-component
 
-### Components:
+### Components Design:
 
 1. Header
 1. DiuSmartForum
    - Index
    - SideBar
-1. Main
+   - AllQuestions
+   - Main

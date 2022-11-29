@@ -1,6 +1,6 @@
 import React from 'react';
-import Main from '../../Main';
 import './Index.css';
+import Main from './Main';
 import Sidebar from './Sidebar';
 
 const Index = () => {

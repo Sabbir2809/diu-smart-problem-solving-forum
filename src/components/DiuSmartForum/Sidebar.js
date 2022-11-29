@@ -1,6 +1,7 @@
 import { Public, Stars, Work } from '@mui/icons-material';
 import { Link } from '@mui/material';
 import React from 'react';
+import './Sidebar.css';
 
 const Sidebar = () => {
   return (

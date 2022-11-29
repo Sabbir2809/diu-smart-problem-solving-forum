@@ -1,4 +1,11 @@
 .smartForum-index {
   display: flex;
   min-height: 85vh;
+  min-width: fit-content;
+}
+
+.smartForum-index-container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
 }
