@@ -23,8 +23,8 @@ header {
   margin-top: 0 10px;
 }
 
-.header-left > h2 {
-  width: 150px;
+.header-left > img {
+  width: 120px;
   object-fit: contain;
   padding: 0;
   cursor: pointer;
