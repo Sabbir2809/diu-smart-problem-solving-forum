@@ -4,15 +4,16 @@ import SearchIcon from '@mui/icons-material/Search';
 import InboxIcon from '@mui/icons-material/Inbox';
 import MenuIcon from '@mui/icons-material/Menu';
 import { Avatar } from '@mui/material';
-import diuMate from './../../image/diuMate.gif';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
   return (
     <header>
       <div className='header-container'>
         <div className='header-left'>
-          {/* <h2>DIUMate</h2> */}
-          <img src={diuMate} alt='Logo' />
+          <Link to='/'>
+            <h2>DIUMate</h2>
+          </Link>
           <h3>Products</h3>
         </div>
         <div className='header-middle'>

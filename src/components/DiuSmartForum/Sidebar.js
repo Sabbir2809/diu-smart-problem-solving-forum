@@ -12,7 +12,7 @@ const Sidebar = () => {
             <Link to=''>Home</Link>
           </div>
           <div className='sidebar-option'>
-            <Link to=''>PUBLIC</Link>
+            <p>PUBLIC</p>
             <div className='link'>
               <div className='link-tag'>
                 <Public />
@@ -34,18 +34,24 @@ const Sidebar = () => {
             </div>
           </div>
           <div className='sidebar-option'>
-            <p>FIND A JOB</p>
+            <p>GUIDELINES</p>
             <div className='link'>
               <div className='link-tag'>
-                <Link to=''>Jobs</Link>
+                <Link to=''>CSE</Link>
+              </div>
+              <div className='link-tag'>
+                <Link to=''>SWE</Link>
+              </div>
+              <div className='link-tag'>
+                <Link to=''>EEE</Link>
               </div>
             </div>
           </div>
           <div className='sidebar-option'>
-            <p>TEAMS</p>
+            <p>Networking</p>
             <div className='link-tag'>
               <Work />
-              <Link to=''>Companies</Link>
+              <Link to=''>Student & Alumni</Link>
             </div>
           </div>
         </div>

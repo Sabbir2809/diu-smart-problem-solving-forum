@@ -10,7 +10,7 @@ const Main = () => {
       <div className='main-container'>
         <div className='main-top'>
           <h2>All Questions</h2>
-          <Link>
+          <Link to='/add-question'>
             <button>Ask Question</button>
           </Link>
         </div>
@@ -19,13 +19,13 @@ const Main = () => {
           <div className='main-filter'>
             <div className='main-tabs'>
               <div className='main-tab'>
-                <Link>Newest</Link>
+                <Link to=''>Newest</Link>
               </div>
               <div className='main-tab'>
-                <Link>Active</Link>
+                <Link to=''>Active</Link>
               </div>
               <div className='main-tab'>
-                <Link>More</Link>
+                <Link to=''>More</Link>
               </div>
             </div>
             <div className='main-filter-item'>
